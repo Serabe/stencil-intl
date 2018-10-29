@@ -15,9 +15,16 @@
     "test": "stencil test --spec --e2e",
     "test.watch": "stencil test --spec --e2e --watchAll"
   },
-  "dependencies": {},
+  "dependencies": {
+    "intl-format-cache": "^2.1.0",
+    "intl-messageformat": "^2.2.0",
+    "intl-relativeformat": "^2.1.0"
+  },
   "devDependencies": {
-    "@stencil/core": "~0.14.1"
+    "@stencil/core": "~0.14.1",
+    "formatjs-extract-cldr-data": "^5.0.0",
+    "intl": "^1.2.5",
+    "intl-messageformat-parser": "^1.4.0"
   },
   "repository": {
     "type": "git",
