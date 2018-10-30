@@ -24,7 +24,8 @@
     "@stencil/core": "~0.14.1",
     "formatjs-extract-cldr-data": "^5.0.0",
     "intl": "^1.2.5",
-    "intl-messageformat-parser": "^1.4.0"
+    "intl-messageformat-parser": "^1.4.0",
+    "prettier": "^1.14.3"
   },
   "repository": {
     "type": "git",
@@ -34,6 +35,10 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Serabe/stencil-intl"
+  },
+  "prettier": {
+    "semi": true,
+    "singleQuote": true
   },
   "homepage": "https://github.com/Serabe/stencil-intl"
 }
